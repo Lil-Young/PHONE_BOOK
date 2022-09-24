@@ -4,7 +4,7 @@
 #include"my_struct.h"
 //#include<string>
 #define _CRT_SECURE_NO_WARINGS //scanf 에러방지를 위해 선언
-
+//test3
 void update(Phonelist* head, Phonelist* tail) {
 	Phonelist* update_node;
 	Phonelist* newNode = NULL;

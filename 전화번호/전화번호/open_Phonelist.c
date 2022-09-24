@@ -5,7 +5,7 @@
 //#include<string>
 #define _CRT_SECURE_NO_WARINGS //scanf 에러방지를 위해 선언
 
-void open_P(Phonelist*head, Phonelist* tail, int* cnt) {
+void open_P(Phonelist*head, Phonelist* tail, int* cnt) { // github test
 	FILE* fp = NULL;
 	fp = fopen("c.txt", "r");
 	Phonelist* open_p = NULL;

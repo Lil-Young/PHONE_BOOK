@@ -1,7 +1,7 @@
 #include<stdio.h> //printf, scanf 사용을 위해 헤더파일 선언
 #include"my_struct.h"
 //#include<string>
-
+//test2
 void end(Phonelist* head, Phonelist* tail) {
 	Phonelist* file_p = NULL;
 	file_p = head->next;
