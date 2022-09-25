@@ -1,38 +1,12 @@
-﻿  all_delete.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\all_delete.c(20,13): warning C4098: 'all_del': 'void' 함수에서 값을 반환하고 있습니다.
-  delete.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\delete.c(33,13): warning C4098: 'del': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\delete.c(13,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  exit.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\exit.c(20,10): warning C4098: 'end': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\exit.c(9,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  insert.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\insert.c(13,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\insert.c(14,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  main.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(40,11): warning C4013: 'open_P'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(56,19): warning C4013: 'insert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(59,17): warning C4013: 'show'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(62,16): warning C4013: 'del'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(65,19): warning C4013: 'update'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(68,20): warning C4013: 'all_del'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(71,16): warning C4013: 'end'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(49,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(53,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(55,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  open_Phonelist.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\open_Phonelist.c(18,11): warning C4098: 'open_P': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\open_Phonelist.c(42,10): warning C4098: 'open_P': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\open_Phonelist.c(10,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\open_Phonelist.c(24,12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\open_Phonelist.c(31,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\open_Phonelist.c(32,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  show.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\show.c(18,13): warning C4098: 'show': 'void' 함수에서 값을 반환하고 있습니다.
-  update.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\update.c(33,10): warning C4098: 'update': 'void' 함수에서 값을 반환하고 있습니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\update.c(15,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\update.c(19,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\update.c(22,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  코드를 생성하고 있습니다...
+﻿  main.c
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(48,11): warning C4013: 'open_F'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(70,19): warning C4013: 'insert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(74,17): warning C4013: 'show'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(78,16): warning C4013: 'del'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(82,19): warning C4013: 'update'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(86,20): warning C4013: 'all_del'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(90,16): warning C4013: 'end'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(60,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(66,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(68,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   전화번호.vcxproj -> C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\x64\Debug\전화번호.exe

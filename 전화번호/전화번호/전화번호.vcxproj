@@ -151,9 +151,6 @@
   <ItemGroup>
     <ClInclude Include="my_struct.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="b.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

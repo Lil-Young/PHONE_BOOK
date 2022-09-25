@@ -3,5 +3,4 @@ typedef struct phonelist {
 	char* phone_num;
 	struct phonelist* next;
 	struct phonelist* prev;
-	int value;
 }Phonelist;
