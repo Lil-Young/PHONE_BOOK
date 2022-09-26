@@ -4,7 +4,7 @@
 #include<stdlib.h>
 // strcpy, strcmp
 #include<string.h>
-//
+// 사용할 자료형
 #include"my_struct.h"
 
 // 함수 open_F을 void형으로 선언하고 매개변수(파라미터)로 전달된 인자를 받는다.

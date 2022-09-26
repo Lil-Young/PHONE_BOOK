@@ -2,7 +2,7 @@
 #include<stdio.h>
 // malloc
 #include<stdlib.h>
-//
+// 사용할 자료형
 #include"my_struct.h"
 // scanf 보안 경고로 인한 컴파일 에러 방지
 #define _CRT_SECURE_NO_WARINGS
@@ -10,7 +10,7 @@
 /*
 * printf는 문자열을 출력하는 함수
 * return 0은 함수를 종료한다.
-* break는 반복문을 탈출시킨다.
+* break는 반복문을 탈출시킨다 또한 switch문을 탈출시킨다.
 */
 int main(void) {
     // 변수와 포인터변수 선언 및 초기화
@@ -18,8 +18,6 @@ int main(void) {
     int select = 0;
     Phonelist* head = NULL;
     Phonelist* tail = NULL;
-    Phonelist* cur = NULL;
-    Phonelist* p = NULL;
 
     // head, tail 메모리할당
     head = (Phonelist*)malloc(sizeof(Phonelist));
@@ -43,8 +41,8 @@ int main(void) {
     tail->next = NULL;
     tail->prev = head;
 
-
     // 파일불러오기
+    // oepn_F 함수를 호출하고 인자들을 전달한다.
     open_F(head, tail, &cnt);
     // 변수 선언
     char name[10];
@@ -95,5 +93,4 @@ int main(void) {
             break;
         }
     }
-    return 0;
 }

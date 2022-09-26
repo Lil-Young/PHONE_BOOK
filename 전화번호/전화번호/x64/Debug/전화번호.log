@@ -1,12 +1,4 @@
-﻿  main.c
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(48,11): warning C4013: 'open_F'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(70,19): warning C4013: 'insert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(74,17): warning C4013: 'show'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(78,16): warning C4013: 'del'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(82,19): warning C4013: 'update'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(86,20): warning C4013: 'all_del'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(90,16): warning C4013: 'end'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(60,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(66,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\main.c(68,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  delete.c
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\delete.c(52,13): warning C4098: 'del': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\전화번호\delete.c(21,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   전화번호.vcxproj -> C:\Users\송용인\Documents\GitHub\PHONE_BOOK\전화번호\x64\Debug\전화번호.exe

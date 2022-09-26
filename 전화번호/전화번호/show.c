@@ -1,6 +1,6 @@
 // printf, scanf
 #include<stdio.h>
-//
+// 사용할 자료형
 #include"my_struct.h"
 // scanf 보안 경고로 인한 컴파일 에러 방지
 #define _CRT_SECURE_NO_WARINGS
