@@ -7,8 +7,8 @@
 // 사용할 자료형
 #include"my_struct.h"
 
-// 함수 insert를 int형으로 선언하고 매개변수(파라미터)로 전달된 인자를 받는다.
-int insert(Phonelist* tail, char* name, char* number, int* cnt) {
+// 함수 insert를 void형으로 선언하고 매개변수(파라미터)로 전달된 인자를 받는다.
+void insert(Phonelist* tail, char* name, char* number, int* cnt) {
     
     // 포인터 변수 선언 및 초기화
     Phonelist* insert_p = NULL;
