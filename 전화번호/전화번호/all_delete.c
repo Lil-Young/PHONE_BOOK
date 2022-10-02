@@ -6,7 +6,7 @@
 #include"my_struct.h"
 
 // 함수 all_del을 void형으로 선언하고 매개변수(파라미터)로 전달된 인자를 받는다.
-void all_del(Phonelist* head, Phonelist* tail, int* cnt) {
+void all_del(Phonelist* head, int* cnt) {
 
     // 포인터변수 선언 및 초기화
     Phonelist* all_del_node = head->next;

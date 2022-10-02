@@ -6,7 +6,7 @@
 #define _CRT_SECURE_NO_WARINGS
 
 // 함수 end를 void형으로 선언하고 매개변수(파라미터)로 전달된 인자를 받는다.
-void end(Phonelist* head, Phonelist* tail) {
+void end(Phonelist* head) {
 
 	// 포인터변수 선언 및 초기화
 	Phonelist* file_p = NULL;

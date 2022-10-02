@@ -69,23 +69,23 @@ int main(void) {
             break;
         case 2:
             // show 함수를 호출하고 인자들을 전달한다.
-            show(head, tail, &cnt);
+            show(head, &cnt);
             break;
         case 3:
             // del 함수를 호출하고 인자들을 전달한다.
-            del(head, tail, &cnt);
+            del(head, &cnt);
             break;
         case 4:
             // update 함수를 호출하고 인자들을 전달한다.
-            update(head, tail);
+            update(head);
             break;
         case 5:
             // all_del 함수를 호출하고 인자들을 전달한다.
-            all_del(head, tail, &cnt);
+            all_del(head, &cnt);
             break;
         case 6:
             // end 함수를 호출하고 인자들을 전달한다.
-            end(head, tail);
+            end(head);
             printf("전화번호부를 저장하고 종료합니다.\n");
             return 0;
         default :
